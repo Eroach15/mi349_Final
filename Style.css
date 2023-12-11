@@ -50,7 +50,7 @@ h3 {
 
 .picOfMe {
     
-    
+    max-width: 100%;
     border-radius: 8px;
 }
 
@@ -82,6 +82,7 @@ p {
     padding: 5px 10px;
     background: rgb(94, 111, 152);
 
+    /*I found this cool hover at https://www.w3schools.com/css/css3_images.asp*/
     transition: background-color 0.3s;
     
 }
@@ -98,3 +99,32 @@ p {
     margin: 10px;
     padding: 10px;
   }
+
+  .dev_log {
+    background: rgb(35, 57, 93);
+    margin-top: 20px;
+    margin-right: 70%;
+}
+.dev_log nav {
+    display: flex;
+    flex-direction: column;
+}
+.dev_log a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+.dev_log a:hover {
+    background-color: rgb(78, 105, 168);
+}
+
+.Gundam {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.backpack {
+    max-width: 100%;
+    border-radius: 8px;
+}
