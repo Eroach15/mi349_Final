@@ -63,6 +63,7 @@ h3 {
     background: rgb(32,51,84);
     margin: 10px;
     
+    
 }
 
 p {
@@ -152,6 +153,7 @@ p {
     padding: 50px;
     background: rgb(32,51,84);
     margin-bottom: 50%;
+    border-radius: 15px;
 }
 
 
